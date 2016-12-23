@@ -22,20 +22,6 @@ window.onload = function () {
    var input = $( ":button" );
     console.log(input.length);
 
-    if(btnLoginToPage!=null){
-            btnLoginToPage.addEventListener('click',function(){
-
-            document.location.href = "../user/login.html";
-        });
-    };
-
-    if(btnRegisterToPage!=null)
-    {
-        btnRegisterToPage.addEventListener('click',function(){
-
-        document.location.href = "../user/register.html";
-        });
-  };
 
     // add login event
    if(btnLogin!=null){
@@ -88,7 +74,7 @@ window.onload = function () {
         {
             logOutButtonNav.addEventListener('click',function (){
                 firebase.auth().signOut();    
-                console.log("yattaaa");
+                console.log("log out button pressed");
             })
             
         };
@@ -113,6 +99,18 @@ window.onload = function () {
               });
             } ;*/
         
+    var segments = window.location.pathname.split('/');
+var toDelete = [];
+for (var i = 0; i < segments.length; i++) {
+    if (segments[i].length < 1) {
+        toDelete.push(i);
+    }
+}
+for (var i = 0; i < toDelete.length; i++) {
+    segments.splice(i, 1);
+}
+var filename = segments[segments.length - 1];
+console.log(filename);
     var user = firebase.auth().currentUser;
     var loggedin=0;
     var hideLogin=document.querySelector('.loginFields');
@@ -129,6 +127,10 @@ window.onload = function () {
             // No user is signed in.
            console.log("User is NOT logged in");
             loggedin=2;
+            if(filename!="login.html"&&filename!="register.html"){
+                document.location.href = "/";
+            }
+  
         }
         
 
