@@ -1,7 +1,7 @@
+<nav class="col s12 m4 l2">
 
-<nav>
-    <div class="nav-wrapper navstyling">
-        <ul class="navlist">
+   <div class="nav-wrapper">
+        <ul class="navlist hide-on-med-and-down">
             <li><a href="/keuzemenu/">Home</a></li>
             <li><a href="/running/">Go Running</a></li>
             <li><a href="/pooping/">Go Pooping</a></li>
@@ -9,6 +9,22 @@
             <li><a href="/achievements/">Achievements</a></li>        
             <li><button id="btnLogout">Log out</button></li>
         </ul>   
-     </div>
+         
+     
+    <!-- mobile -->    
+        
+        <ul id="slide-out" class="side-nav" >
+            <li><a href="/keuzemenu/">Home</a></li>
+            <li><a href="/running/">Go Running</a></li>
+            <li><a href="/pooping/">Go Pooping</a></li>
+            <li><a href="/swimming/">Go Swimming</a></li>
+            <li><a href="/achievements/">Achievements</a></li>        
+            <li><button id="btnLogout">Log out</button></li>
+        
+        </ul>
+    <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+       <div id="currentPage" class="hide-on-large-only"></div>
+   </div>
+    
 </nav>
 

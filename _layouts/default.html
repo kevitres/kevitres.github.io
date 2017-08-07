@@ -21,6 +21,7 @@
     <meta name="msapplication-TileImage" content="/img/favicon/ms-icon-144x144.png">
     <meta name="theme-color" conten="#ffffff">
     
+
     
     <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -35,18 +36,20 @@
 </head>
 <body>
     <header >
+
         {% include nav.html %}
         
     </header>
-    <div class="container">
-        <div class="row">
-            <div class="col s12 m4 l8">
-                {{content}}
+    <div class="container col s112 m4 l2">      
+        
+            <div class="">
+               {{content}}
                 <button id="markers" class="btn-floating btn-large waves-effect waves-light" >Show Markers</button>
-                <button id="topdog" class="btn-floating btn-large waves-effect waves-light" >Top Dog</button>
+                <button id="markers" class="btn-floating btn-large waves-effect waves-light" >Top Dog</button>
              </div>
-        </div>
-     </div>
+       
+
+</div>
     
     
     
@@ -59,6 +62,8 @@
     
     <!-- eigen js-->
 <script src="../js/maps.js"></script>
+ <script src="../js/main.js."></script>
+
 
 <!-- google maps appi-->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDbXZRF5kd1FFLSbf8dCZtVDZ5Y7uxFdvQ&callback=initMap&libraries=places"
@@ -66,7 +71,8 @@
 <!-- firebase -->
     <script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
     <script src="../js/app.js"></script>
-<!--achievements-->
+<!--achievements tessstttt-->
     <script src="../js/achievements.js"></script>
+
 </body>
 </html>

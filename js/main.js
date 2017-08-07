@@ -16,4 +16,8 @@ $('#king').click(function(){
 document.location.href = "../achievements/index.html";
 });
     
-};
+
+}
+$(document).ready(function () {
+    $(".button-collapse").sideNav();
+});

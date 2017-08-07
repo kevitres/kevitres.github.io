@@ -1,4 +1,3 @@
-
 var map;
 var src ;
 
@@ -30,6 +29,9 @@ function initMap() {
         zoom: 12,
         mapTypeId: 'roadmap'
     });
+
+
+       
     
     if(filename=="pooping")
         {
@@ -37,18 +39,21 @@ function initMap() {
             loadKmlLayer('https://raw.githubusercontent.com/kevitres/1617.nmdad1.gitnotes/master/kml/hondentoilet.kml', map);
             loadKmlLayer('https://raw.githubusercontent.com/kevitres/1617.nmdad1.gitnotes/master/kml/anti-hondenpoeptegel.kml', map);
             });
+            document.getElementById("currentPage").innerHTML="pooping";
         }
     else if(filename=="swimming")
         {
              $('#markers').click(function(){
             loadKmlLayer('https://raw.githubusercontent.com/kevitres/1617.nmdad1.gitnotes/master/kml/hondenzwemplaats.kml', map);
                    });
+             document.getElementById("currentPage").innerHTML="swimming";
         }
     else if(filename=="running")
         {
              $('#markers').click(function(){
             loadKmlLayer('https://raw.githubusercontent.com/kevitres/1617.nmdad1.gitnotes/master/kml/losloopweide.kml', map);
                    });
+             document.getElementById("currentPage").innerHTML="running";
         }
 }
 
