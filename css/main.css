@@ -1,17 +1,17 @@
-/* line 30, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 25, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 html, body {
   height: 100%;
   width: 100%;
   font-family: open sans,helvetica; }
 
-/* line 35, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 30, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 nav {
   background-color: rgba(255, 255, 255, 0.25); }
-  /* line 37, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+  /* line 32, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
   nav ul {
     list-style: none; }
 
-/* line 42, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 37, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 h1 {
   font-size: 100px;
   font-family: open sans,helvetica,arial;
@@ -19,49 +19,49 @@ h1 {
   color: #e5dea5;
   text-shadow: 5px 15px 0px rgba(153, 0, 0, 0.25); }
 
-/* line 52, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 47, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .bg-image {
   background: url("../img/background_home.jpg") no-repeat center center;
   background-size: cover;
   overflow: hidden; }
 
-/* line 57, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 52, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .bg-image-login {
   background: url("../img/gopodog_website.jpg") no-repeat center center;
   background-size: cover;
   overflow: hidden; }
 
-/* line 62, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 57, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .bg-image-pooping {
   background: url("../img/background_pooping.jpg") no-repeat center center;
   background-size: cover;
   overflow: hidden; }
 
-/* line 67, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 62, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .bg-image-running {
   background: url("../img/background_running.jpg") no-repeat center center;
   background-size: cover;
   overflow: hidden; }
 
-/* line 72, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 67, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .bg-image-swimming {
   background: url("../img/background_swimming.jpg") no-repeat center center;
   background-size: cover;
   overflow: hidden; }
 
-/* line 77, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 72, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .bg-image-achievements {
   background: url("../img/background_achievements.jpg") no-repeat center center;
   background-size: cover;
   overflow: hidden; }
 
-/* line 82, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 77, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .background-keuzemenu {
   background: url("../img/background_home.jpg") no-repeat center center;
   background-size: cover;
   overflow: hidden; }
 
-/* line 88, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 83, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #map {
   height: 60vh;
   width: 90vw;
@@ -69,36 +69,36 @@ h1 {
   border: thin solid #333;
   max-width: 1200px; }
 
-/* line 95, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 90, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #achievements {
   width: 1280px;
   height: 100vh;
   margin-top: 20px; }
 
-/* line 100, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 95, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #unlockimg {
   width: 10%;
   height: 10%;
   float: left; }
 
-/* line 105, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 100, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .login {
   margin-top: 45vh; }
 
-/* line 109, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 104, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .nextpage {
   margin-top: 60vh;
   text-align: center; }
 
-/* line 115, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 110, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .hidelogin {
   display: none; }
 
-/* line 119, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 114, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .hideInputField {
   display: none; }
 
-/* line 122, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 117, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #btnLogout {
   text-align: center;
   width: 100px;
@@ -107,7 +107,7 @@ h1 {
   background-color: hslahsla(72, 100%, 50%, 0.2);
   border: none; }
 
-/* line 131, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 126, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #btnLogin {
   text-align: center;
   width: 50vw;
@@ -122,7 +122,7 @@ h1 {
   box-shadow: 0px 10px 0px rgba(22, 19, 19, 0.55);
   margin-right: 50px; }
 
-/* line 137, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 132, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #btnLoginToPage {
   text-align: center;
   width: 50vw;
@@ -137,7 +137,7 @@ h1 {
   box-shadow: 0px 10px 0px rgba(22, 19, 19, 0.55);
   margin-right: 50px; }
 
-/* line 143, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 138, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #markers {
   text-align: center;
   width: 50vw;
@@ -155,7 +155,7 @@ h1 {
   margin-top: 10px;
   float: left; }
 
-/* line 150, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 145, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #topdog {
   text-align: center;
   width: 50vw;
@@ -171,7 +171,7 @@ h1 {
   font-size: 40px;
   float: left; }
 
-/* line 155, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 150, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #btnSignup {
   text-align: center;
   width: 50vw;
@@ -185,7 +185,7 @@ h1 {
   text-transform: none;
   box-shadow: 0px 10px 0px rgba(22, 19, 19, 0.55); }
 
-/* line 158, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 153, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #btnSignupToPage {
   text-align: center;
   width: 50vw;
@@ -199,17 +199,17 @@ h1 {
   text-transform: none;
   box-shadow: 0px 10px 0px rgba(22, 19, 19, 0.55); }
 
-/* line 161, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 156, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .loginButtons {
   margin-left: 11vw; }
 
-/* line 164, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 159, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .loginFields {
   margin: 0 auto;
   margin-top: 60vh;
   width: 400px; }
 
-/* line 169, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 164, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 input {
   border: 3px solid #e5dea5 !important;
   border-radius: 10px !important;
@@ -217,27 +217,27 @@ input {
   font-family: open sans, arial, helvetica !important;
   font-size: 35px !important; }
 
-/* line 176, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 171, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 a {
   color: #332f28; }
 
-/* line 180, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 175, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 a:hover {
   text-decoration: underline; }
 
-/* line 183, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 178, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .keuzemenu {
   margin: auto;
   width: 60%;
   margin-top: 18vh; }
 
-/* line 191, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 186, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #running {
   width: 100%;
   height: 100%;
   margin-right: 5vw; }
 
-/* line 197, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 192, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #running:hover {
   -ms-transform: rotate(7deg);
   /* IE 9 */
@@ -245,13 +245,13 @@ a:hover {
   /* Chrome, Safari, Opera */
   transform: rotate(7deg); }
 
-/* line 200, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 195, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #pooping {
   width: 60vw;
   height: auto;
   margin-bottom: 10vh; }
 
-/* line 205, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 200, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #currentPage {
   font-size: 5.8vh;
   font-family: Open Sans,helvetica,arial;
@@ -261,7 +261,7 @@ a:hover {
   color: #e5dea5;
   text-shadow: 5px 2px 0px rgba(22, 19, 19, 0.55); }
 
-/* line 214, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 209, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #pooping:hover {
   -ms-transform: rotate(7deg);
   /* IE 9 */
@@ -269,13 +269,13 @@ a:hover {
   /* Chrome, Safari, Opera */
   transform: rotate(7deg); }
 
-/* line 217, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 212, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #swimming {
   width: 300px;
   height: 328px;
   margin-right: 9vw; }
 
-/* line 223, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 218, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #swimming:hover {
   -ms-transform: rotate(7deg);
   /* IE 9 */
@@ -283,13 +283,13 @@ a:hover {
   /* Chrome, Safari, Opera */
   transform: rotate(7deg); }
 
-/* line 226, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 221, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #king {
   margin-bottom: -100px;
   width: 350px;
   height: 453px; }
 
-/* line 232, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 227, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #king:hover {
   -ms-transform: rotate(7deg);
   /* IE 9 */
@@ -297,7 +297,7 @@ a:hover {
   /* Chrome, Safari, Opera */
   transform: rotate(7deg); }
 
-/* line 235, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 230, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 h2 {
   font-size: 50px;
   font-family: Open Sans,helvetica,arial;
@@ -305,7 +305,7 @@ h2 {
   color: #e5dea5;
   text-shadow: 5px 8px 0px rgba(22, 19, 19, 0.55); }
 
-/* line 243, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 238, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .navlist {
   text-align: center;
   position: absolute;
@@ -314,7 +314,7 @@ h2 {
   transform: translateX(-50%);
   padding-left: 10px; }
 
-/* line 252, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 247, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .circle {
   width: 60px;
   height: 60px;
@@ -326,7 +326,7 @@ h2 {
   margin-top: 20vh;
   float: left; }
 
-/* line 264, D:/GDM/nmad/gopoedog/Final/gopodog/css/main.scss */
+/* line 259, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .centershit {
   width: 35vw;
   display: block;
