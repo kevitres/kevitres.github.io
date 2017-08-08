@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html class="background-keuzemenu">
+<html class="background-keuzemenu ">
+
 <head>
    <link href="../css/main.css" rel="stylesheet">
          <!--Import jQuery before materialize.js-->
@@ -12,28 +13,39 @@
 <body>
     
     <div class="keuzemenu">
-         <a id="stylingA" href='../running/'>
-           
-        <img src=../img/running.png id="running" >    
-        </a>
-        <!--
-       <a id="stylingA" href='../pooping/'>
-        <img src=../img/pooping.png id="pooping">
-          </a>
-         <a id="stylingA" href='../swimming/'>
-        <img src=../img/swimming.png id="swimming">
+        
+        <div class="keuzePooping">
+            <a id="stylingA" href='../pooping/'>
+            <img src=../img/pooping.png id="pooping">
+                <h3>Go pooping</h3>             
              </a>
-        <a id="stylingA" href='../achievements/'>
-        <img src=../img/king.png id="king">
-            </a>-->
-        <div class="centershit">
-             <h2>Go pooping</h2>
-             <div class="circle"></div>
-             <div class="circle"></div>
-             <div class="circle"></div>
-             <div class="circle"></div>           
+         </div>
+        
+        <div class="keuzeRunning">
+            <a id="stylingA" href='../running/'>               
+            <img src=../img/running.png id="running" > 
+                 <h3>Go running</h3>
+            </a>
+        </div>       
+      
+        <div class="keuzeSwimming">
+         <a id="stylingA" href='../swimming/'>
+            <img src=../img/swimming.png id="swimming">
+        </a>
         </div>
-    
+        
+       <div class="keuzeAchievements">
+           <a id="stylingA" href='../achievements/'>
+               <img src=../img/king.png id="king">
+           </a>
+        </div>
+        
+        <div class="centershit">             
+             <button id="btnPooping"></button>
+             <button id="btnRunning"></button>
+             <button id="btnSwimming"></button>
+             <button id="btnAchievements"></button>     
+        </div>
     </div>
 
 

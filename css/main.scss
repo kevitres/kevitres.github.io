@@ -18,9 +18,21 @@ $zwart: #332f28;
 }
 //tilt effect
 @mixin tiltEffect{
-         -ms-transform: rotate(7deg); /* IE 9 */
+    -ms-transform: rotate(7deg); /* IE 9 */
     -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
     transform: rotate(7deg);
+}
+//circlebuttons
+@mixin circleButton{
+    width: 60px;
+      height: 60px;
+      -webkit-border-radius: 30px;
+      -moz-border-radius: 30px;
+      border-radius: 30px;
+      background: red;
+     margin-right: 25px;
+     margin-top: 20vh;
+     float:left;
 }
 html, body{
     height: 100%;
@@ -35,14 +47,30 @@ nav{
        }
 }
 h1{
-    font-size: 100px;
+    font-size: 10vh;
     font-family: open sans,helvetica,arial;
     font-weight: bold;
     color:$wit;
-    text-shadow: 5px 15px 0px hsla(360, 100%, 30%, 0.25);
-    
+    text-shadow: 5px 15px 0px hsla(360, 100%, 30%, 0.25);    
 }
-
+h2{    
+    font-size: 50px;
+    font-family: Open Sans,helvetica,arial;    
+    font-weight: bold;
+    color:$wit;
+    text-shadow: 5px 8px 0px hsla(360, 8%, 8%, 0.55);   
+}
+h3{
+    font-size: 4.8vh;
+    font-family: open sans,helvetica,arial;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:$wit;
+    text-shadow: 5px 15px 0px hsla(360, 100%, 30%, 0.25); 
+    margin-left:6vw;
+    margin-top:10vh;
+}
 //backgrounds
 .bg-image{
     background: url("../img/background_home.jpg") no-repeat center center;
@@ -75,10 +103,11 @@ h1{
      overflow: hidden;
 }
 .background-keuzemenu{
-     background: url("../img/background_home.jpg") no-repeat center center;
+    background: url("../img/background_home.jpg") no-repeat center center;
     background-size:cover;
     overflow: hidden;
 }
+
 //content
 #map {    
     height:60vh;
@@ -98,7 +127,7 @@ h1{
     float:left;
 }
 .login{
-     margin-top: 45vh;
+     margin-top: 50vh;
    
 }
 .nextpage{
@@ -123,17 +152,15 @@ h1{
     border:none;
     
 }
-#btnLogin{
-  
+
+#btnLoginToPage{  
     @include loginPage-button;
-    margin-right: 50px;
-    
-}
-#btnLoginToPage{
-  
-    @include loginPage-button;
-    margin-right: 50px;
-    
+    font-size: 4.5vh;
+   margin-left:5vw;
+    margin-right:10vw;
+    margin-top: 10px;
+    float:left;  
+    width: 80vw;    
 }
 #markers{
     @include loginPage-button;
@@ -148,13 +175,21 @@ h1{
     float:left;
 }
 #btnSignup{
-    @include loginPage-button;
+   @include loginPage-button;
+    font-size: 4.5vh;
+    margin-left: 10px;
+    margin-top: 10px;
+    float:left;  
 }
 #btnSignupToPage{
-    @include loginPage-button;
+   @include loginPage-button;
+    font-size: 4.5vh;  
+     //margin-left:6vw;
+    margin-top: 10px;
+    width: 80vw;
 }
 .loginButtons{
-    margin-left:11vw;
+  margin: 0 auto;
 }
 .loginFields{
     margin: 0 auto;
@@ -170,22 +205,20 @@ input{
 }
 a{
     color: $zwart;
-
+    text-decoration: none;
 }
 a:hover{
    text-decoration: underline;
 }
 .keuzemenu{
-    margin: auto;
-    width: 60%;
-    margin-top: 18vh;
-    
-   
-    
+    margin-left:15vw;
+    width: 70%;
+    margin-top: 18vh;    
+     
 }
 #running{
-    width:100%;
-    height:100%;
+   width: 58vw;
+    height:auto;     
     margin-right: 5vw;
      
 }
@@ -193,9 +226,10 @@ a:hover{
     @include tiltEffect;
 }
 #pooping{
-    width: 60vw;
+    width: 70vw;
     height:auto;     
     margin-bottom: 10vh;
+    margin:0 auto;
 }
 #currentPage{
     font-size:5.8vh;
@@ -227,14 +261,6 @@ a:hover{
 #king:hover{
     @include tiltEffect;
 }
-h2{
-    
-     font-size: 50px;
-    font-family: Open Sans,helvetica,arial;    
-    font-weight: bold;
-    color:$wit;
-    text-shadow: 5px 8px 0px hsla(360, 8%, 8%, 0.55);   
-}
 .navlist{
     text-align: center;
     position: absolute;
@@ -244,21 +270,20 @@ h2{
     padding-left: 10px; 
     
 }
- .circle {
-    
-      width: 60px;
-      height: 60px;
-      -webkit-border-radius: 30px;
-      -moz-border-radius: 30px;
-      border-radius: 30px;
-      background: red;
-     margin-right: 25px;
-     margin-top: 20vh;
-     float:left;
+#btnRunning{
+    @include circleButton;
+}
+#btnPooping{
+     @include circleButton;
+}
+#btnSwimming{
+     @include circleButton;
+}
+#btnAchievements{
+     @include circleButton;
 }
 .centershit{
-  width:35vw;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+    width:35vw;
+    margin-left: 16vw;
+    float:left;
 }
