@@ -68,7 +68,7 @@ h3{
     text-transform: uppercase;
     color:$wit;
     text-shadow: 5px 15px 0px hsla(360, 100%, 30%, 0.25); 
-    margin-left:6vw;
+    margin-left:5vw;
     margin-top:10vh;
 }
 //backgrounds
@@ -217,10 +217,11 @@ a:hover{
      
 }
 #running{
-   width: 58vw;
+    width: 70vw;
     height:auto;     
-    margin-right: 5vw;
-     
+    margin-bottom: 10vh;
+    margin:0 auto;
+    
 }
 #running:hover{
     @include tiltEffect;
@@ -244,18 +245,20 @@ a:hover{
          @include tiltEffect;
 }
 #swimming{
-    width:300px;
-    height: 328px;
-    margin-right:9vw;
+    width: 70vw;
+    height:auto;     
+    margin-bottom: 10vh;
+    margin:0 auto;
   
 }
 #swimming:hover{
     @include tiltEffect;
 }
 #king{
-    margin-bottom: -100px;
-    width:350px;
-    height: 453px;
+    width: 70vw;
+    height:auto;     
+    margin-bottom: 10vh;
+    margin:0 auto;
    
 }
 #king:hover{

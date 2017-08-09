@@ -25,6 +25,7 @@ document.location.href = "../achievements/index.html";
         $(".keuzeRunning").hide();        
         $(".keuzeSwimming").hide();
         $(".keuzeAchievements").hide();
+        $('html').css({background : 'url("../img/pooping_m.jpg") no-repeat center center'}); 
     });   
     
     $("#btnRunning").click(function(){
@@ -35,7 +36,8 @@ document.location.href = "../achievements/index.html";
         $(".keuzeAchievements").hide();    
         
         
-        $('html').css({background : 'url("../img/background_running.jpg")'});
+        $('html').css({background : 'url("../img/running_m.jpg") no-repeat center'}); 
+        
         
     });   
     
@@ -44,6 +46,8 @@ document.location.href = "../achievements/index.html";
         $(".keuzeRunning").hide();        
         $(".keuzeSwimming").show();
         $(".keuzeAchievements").hide();
+        
+        $('html').css({background : 'url("../img/swimming_m.jpg") no-repeat center'});
     });
     
      $("#btnAchievements").click(function(){
@@ -51,6 +55,8 @@ document.location.href = "../achievements/index.html";
         $(".keuzeRunning").hide();        
         $(".keuzeSwimming").hide();
         $(".keuzeAchievements").show();
+         
+        $('html').css({background : 'url("../img/achievements_m.jpg") no-repeat center'});
     });   
 
 
