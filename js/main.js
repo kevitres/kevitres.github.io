@@ -99,23 +99,7 @@ if((screen.width<=900)){
     $(".keuzemenuWeb").hide();
    
 };
-    
-    var segments = window.location.pathname.split('/');
-var toDelete = [];
-for (var i = 0; i < segments.length; i++) {
-    if (segments[i].length < 1) {
-        toDelete.push(i);
-    }
-}
-for (var i = 0; i < toDelete.length; i++) {
-    segments.splice(i, 1);
-}
-var filename = segments[segments.length - 1];
-    if((screen.width<=900) && filename==keuzemenu){
-        
-         $('html').css({background : 'url("../img/pooping_m.jpg") no-repeat center center'}); 
-        
-    };
+
     
 });
 
