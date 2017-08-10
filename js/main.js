@@ -97,7 +97,7 @@ $(document).ready(function () {
 if((screen.width<=900)){
     $(".keuzemenu").show();
     $(".keuzemenuWeb").hide();
-    $('html').css({background : 'url("../img/pooping_m.jpg") no-repeat center center'}); 
+    
 };
     
 });
