@@ -1,6 +1,6 @@
 window.onload = function () {
 
-
+    $(".button-collapse").sideNav(); 
 
 
 $('#running').click(function(){    
@@ -102,6 +102,6 @@ if((screen.width<=900)){
     
 });
 
-    $(".button-collapse").sideNav(); 
+
 
 
