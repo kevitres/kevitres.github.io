@@ -1,6 +1,6 @@
 window.onload = function () {
 
-    $(".button-collapse").sideNav(); 
+
 
 
 $('#running').click(function(){    
@@ -19,10 +19,22 @@ $('#king').click(function(){
 document.location.href = "../achievements/index.html";
 });
     
-    $(".keuzePooping, .keuzeSwimming, .keuzeAchievements").hide();
+    $(".keuzeRunning, .keuzeSwimming, .keuzeAchievements").hide();
     $("#btnPooping").addClass('btnActive');
     
-   
+     $("#btnPooping").click(function(){
+        $(".keuzePooping").show();
+        $(".keuzeRunning").hide();        
+        $(".keuzeSwimming").hide();
+        $(".keuzeAchievements").hide();
+         
+        $("#btnPooping").addClass('btnActive');
+        $("#btnRunning").removeClass('btnActive');
+        $("#btnSwimming").removeClass('btnActive');
+        $("#btnAchievements").removeClass('btnActive');
+         
+        $('html').css({background : 'url("../img/pooping_m.jpg") no-repeat center center'}); 
+    });   
     
     $("#btnRunning").click(function(){
        
@@ -39,20 +51,6 @@ document.location.href = "../achievements/index.html";
         $('html').css({background : 'url("../img/running_m.jpg") no-repeat center'}); 
         
         
-    });   
-    
-      $("#btnPooping").click(function(){
-        $(".keuzePooping").show();
-        $(".keuzeRunning").hide();        
-        $(".keuzeSwimming").hide();
-        $(".keuzeAchievements").hide();
-         
-        $("#btnPooping").addClass('btnActive');
-        $("#btnRunning").removeClass('btnActive');
-        $("#btnSwimming").removeClass('btnActive');
-        $("#btnAchievements").removeClass('btnActive');
-         
-        $('html').css({background : 'url("../img/pooping_m.jpg") no-repeat center center'}); 
     });   
     
     $("#btnSwimming").click(function(){
