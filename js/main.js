@@ -19,7 +19,7 @@ $('#king').click(function(){
 document.location.href = "../achievements/index.html";
 });
     
-    $(".keuzeRunning, .keuzeSwimming, .keuzeAchievements").hide();
+    $(".keuzePooping, .keuzeSwimming, .keuzeAchievements").hide();
     $("#btnPooping").addClass('btnActive');
     
    
