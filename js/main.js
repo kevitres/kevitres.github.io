@@ -85,7 +85,7 @@ document.location.href = "../achievements/index.html";
 
 };
 $(document).ready(function () {
-    $(".button-collapse").sideNav(); 
+
 
      if ((screen.width>900)) {
     // if screen size is 1025px wide or larger
@@ -102,6 +102,6 @@ if((screen.width<=900)){
     
 });
 
-
+    $(".button-collapse").sideNav(); 
 
 
