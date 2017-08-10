@@ -5,7 +5,7 @@ $zwart: #332f28;
 //buttons
 @mixin loginPage-button{
     text-align: center;
-    width:50vw;
+    width:83vw;
     height: 15vh;
     max-height: 87px;
     max-width: 400px;
@@ -24,12 +24,12 @@ $zwart: #332f28;
 }
 //circlebuttons
 @mixin circleButton{
-    width: 60px;
+      width: 60px ;
       height: 60px;
       -webkit-border-radius: 30px;
       -moz-border-radius: 30px;
       border-radius: 30px;
-      background: red;
+      //background: red;
      margin-right: 25px;
      margin-top: 20vh;
      float:left;
@@ -71,6 +71,14 @@ h3{
     margin-left:5vw;
     margin-top:10vh;
 }
+h4{
+    text-align: center;
+    font-size: 2vw;
+    font-family: open sans,helvetica,arial;
+    font-weight: bold;
+    color:$wit;
+    text-shadow: 5px 5px 0px hsla(360, 100%, 30%, 0.25);
+}
 //backgrounds
 .bg-image{
     background: url("../img/background_home.jpg") no-repeat center center;
@@ -103,7 +111,7 @@ h3{
      overflow: hidden;
 }
 .background-keuzemenu{
-    background: url("../img/background_home.jpg") no-repeat center center;
+    background: url("../img/keuzemenu.jpg") no-repeat center center;
     background-size:cover;
     overflow: hidden;
 }
@@ -148,7 +156,7 @@ h3{
     width:100px;
     height: 64px;
     font-size: 20px;
-     background-color:hslahsla(72, 100%, 50%,0.2);
+     background-color:hsla(72, 100%, 50%,0.2);
     border:none;
     
 }
@@ -223,14 +231,28 @@ a:hover{
     margin:0 auto;
     
 }
-#running:hover{
-    @include tiltEffect;
-}
 #pooping{
     width: 70vw;
     height:auto;     
     margin-bottom: 10vh;
     margin:0 auto;
+    
+}
+#keuzeIconWeb{
+    width: 100%;
+    height:100%;    
+   
+    margin:0 auto;
+}
+.keuzePoopingWeb{
+    width:500px;
+   
+}
+.keuzemenuWeb{
+display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
 }
 #currentPage{
     font-size:5.8vh;
@@ -241,18 +263,15 @@ a:hover{
     color:$wit;
     text-shadow: 5px 2px 0px hsla(360, 8%, 8%, 0.55);   
 }
-#pooping:hover{
+#keuzeIconWeb:hover{
          @include tiltEffect;
 }
 #swimming{
     width: 70vw;
     height:auto;     
     margin-bottom: 10vh;
-    margin:0 auto;
+    margin:0 auto;   
   
-}
-#swimming:hover{
-    @include tiltEffect;
 }
 #king{
     width: 70vw;
@@ -260,9 +279,6 @@ a:hover{
     margin-bottom: 10vh;
     margin:0 auto;
    
-}
-#king:hover{
-    @include tiltEffect;
 }
 .navlist{
     text-align: center;
@@ -276,6 +292,12 @@ a:hover{
 #btnRunning{
     @include circleButton;
 }
+.btnNotActive{
+    background: hsla(360, 100%, 30%, 0.25);
+}
+.btnActive{
+    background: $wit;
+}
 #btnPooping{
      @include circleButton;
 }
@@ -285,8 +307,8 @@ a:hover{
 #btnAchievements{
      @include circleButton;
 }
-.centershit{
+.centerBtns{
     width:35vw;
-    margin-left: 16vw;
+    margin-left: 18vw;
     float:left;
 }
