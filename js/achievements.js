@@ -1,12 +1,12 @@
 function createImage(id) {
      var x = document.createElement("img");
      x.setAttribute("src", "../img/1.jpg");
-     x.setAttribute("height", "354");
+     x.setAttribute("height", "424");
      x.setAttribute("id","achievement"+id);
      if(achievement.indexOf(id) >= 0){
          x.setAttribute("src","../img/"+id+".jpg");
      }
-     x.setAttribute("width", "230");
+     x.setAttribute("width", "300");
      x.setAttribute("alt", "unlock");
     
    var getImage=document.getElementById('achievements');
@@ -18,6 +18,24 @@ function createImage(id) {
             console.log(e.target);
     
         });
+
+if ((screen.width>900)) {
+// if screen size is 1025px wide or larger
+
+    $('html').css({overflow:'auto'});
+     $('#markers').hide();
+     $('#topdog').hide();
+};
+
+if((screen.width<=900)){
+
+   x.setAttribute("height", "212");
+     x.setAttribute("width", "150");
+     $('html').css({overflow:'auto'});
+    $('#markers').hide();
+     $('#topdog').hide();
+
+};
 
     
     document.getElementById("achievements").appendChild(x);

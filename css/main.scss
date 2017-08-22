@@ -34,6 +34,16 @@ $zwart: #332f28;
      margin-top: 20vh;
      float:left;
 }
+//inputfields
+@mixin inputFields{
+     border:3px solid $wit ; 
+    border-radius: 10px ;
+    color: $zwart;
+    font-family: open sans,arial,helvetica;
+    font-size: 5vh;
+    width:85vw;
+    max-width:400px;
+}
 html, body{
     height: 100%;
     width: 100%;
@@ -79,6 +89,15 @@ h4{
     color:$wit;
     text-shadow: 5px 5px 0px hsla(360, 100%, 30%, 0.25);
 }
+#continue{
+    font-size: 4.8vh;
+    font-family: open sans,helvetica,arial;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:$wit;
+    text-shadow: 5px 5px 0px hsla(360, 100%, 30%, 0.25);  
+}
 //backgrounds
 .bg-image{
     background: url("../img/background_home.jpg") no-repeat center center;
@@ -104,6 +123,7 @@ h4{
     background: url("../img/background_swimming.jpg") no-repeat center center;
     background-size:cover;
      overflow: hidden;
+    
 }
 .bg-image-achievements{
     background: url("../img/background_achievements.jpg") no-repeat center center;
@@ -125,7 +145,7 @@ h4{
     max-width: 1200px;
 }
 #achievements{
-    width: 1280px;
+    width: auto;
     height: 100vh;
     margin-top:20px;
 }
@@ -156,11 +176,24 @@ h4{
     width:100px;
     height: 64px;
     font-size: 20px;
-     background-color:hsla(72, 100%, 50%,0.2);
+     background-color:hsla(53, 55%, 77%, 0.89);
     border:none;
     
 }
-
+#btnLogout_m{
+       text-align: center;
+    width:100px;
+    height: 64px;
+    font-size: 20px;
+     background-color:hsla(53, 55%, 77%, 0.89);
+    border:none; 
+}
+#btnLogin{
+     @include loginPage-button;
+    font-size: 4.5vh;
+      float:left;  
+    width: 86vw;    
+}
 #btnLoginToPage{  
     @include loginPage-button;
     font-size: 4.5vh;
@@ -179,8 +212,10 @@ h4{
 }
 #topdog{
     @include loginPage-button;
-    font-size: 40px;
-    float:left;
+    font-size: 4.5vh;
+    margin-left: 10px;
+    margin-top: 10px;
+    float:left; 
 }
 #btnSignup{
    @include loginPage-button;
@@ -204,12 +239,17 @@ h4{
     margin-top:60vh;
     width:400px;
 }
-input{
-    border:3px solid $wit !important; 
-    border-radius: 10px !important;
-    color: $zwart!important;
-    font-family: open sans,arial,helvetica!important;
-    font-size: 35px!important;
+#txtEmail{
+@include inputFields;
+}
+#txtPassword{
+@include inputFields;
+}
+#txtEmailRegister{
+    @include inputFields;
+}
+#txtPasswordRegister{
+    @include inputFields;
 }
 a{
     color: $zwart;
@@ -255,7 +295,7 @@ display: flex;
   height: 75vh;
 }
 #currentPage{
-    font-size:5.8vh;
+    font-size:4vh;
     font-family: Open Sans,helvetica,arial;    
     font-weight: bold;
     text-transform: uppercase;
@@ -265,6 +305,13 @@ display: flex;
 }
 #keuzeIconWeb:hover{
          @include tiltEffect;
+}
+.icon{
+   
+    height:40px;
+    width:auto;
+    margin-right: 5px;
+   display: inline-block;
 }
 #swimming{
     width: 70vw;

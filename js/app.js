@@ -78,6 +78,15 @@ window.onload = function () {
             })
             
         };
+        var logOutButtonNav=document.querySelector('#btnLogout_m');
+    if(logOutButtonNav!=null)
+        {
+            logOutButtonNav.addEventListener('click',function (){
+                firebase.auth().signOut();    
+                console.log("log out button pressed");
+            })
+            
+        };
     
    /* var logoutNav=document.querySelector('#btnLogout');
       

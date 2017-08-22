@@ -39,24 +39,41 @@ function initMap() {
             loadKmlLayer('https://raw.githubusercontent.com/kevitres/1617.nmdad1.gitnotes/master/kml/hondentoilet.kml', map);
             loadKmlLayer('https://raw.githubusercontent.com/kevitres/1617.nmdad1.gitnotes/master/kml/anti-hondenpoeptegel.kml', map);
             });
-            document.getElementById("currentPage").innerHTML="pooping";
+            document.getElementById("currentPage").innerHTML="go pooping";
+            if(screen.width<=900){
+                $('html').css({background : 'url("../img/pooping_m.jpg") no-repeat center'});
+            };
+             
         }
     else if(filename=="swimming")
         {
              $('#markers').click(function(){
             loadKmlLayer('https://raw.githubusercontent.com/kevitres/1617.nmdad1.gitnotes/master/kml/hondenzwemplaats.kml', map);
                    });
-             document.getElementById("currentPage").innerHTML="swimming";
+             document.getElementById("currentPage").innerHTML="go swimming";
+             if(screen.width<=900){
+                $('html').css({background : 'url("../img/swimming_m.jpg") no-repeat center'});
+            };
         }
     else if(filename=="running")
         {
              $('#markers').click(function(){
             loadKmlLayer('https://raw.githubusercontent.com/kevitres/1617.nmdad1.gitnotes/master/kml/losloopweide.kml', map);
                    });
-             document.getElementById("currentPage").innerHTML="running";
+             document.getElementById("currentPage").innerHTML="go running";
+             if(screen.width<=900){
+                $('html').css({background : 'url("../img/running_m.jpg") no-repeat center'});
+            };
         }
-}
 
+}
+    if(filename=="achievements")
+        {
+             document.getElementById("currentPage").innerHTML="achievements";
+             $('html').css({background: 'url("../img/background_achievements.jpg") center'});
+             $('html').css({overflow:'auto'});
+            $('html').css("background-image", "url(../img/background_achievements.jpg)"); 
+        }
 /**
  * Adds a KMLLayer based on the URL passed. Clicking on a marker
  * results in the balloon content being loaded into the right-hand div.

@@ -1,17 +1,17 @@
-/* line 37, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 47, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 html, body {
   height: 100%;
   width: 100%;
   font-family: open sans,helvetica; }
 
-/* line 42, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 52, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 nav {
   background-color: rgba(255, 255, 255, 0.25); }
-  /* line 44, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+  /* line 54, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
   nav ul {
     list-style: none; }
 
-/* line 49, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 59, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 h1 {
   font-size: 10vh;
   font-family: open sans,helvetica,arial;
@@ -19,7 +19,7 @@ h1 {
   color: #e5dea5;
   text-shadow: 5px 15px 0px rgba(153, 0, 0, 0.25); }
 
-/* line 56, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 66, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 h2 {
   font-size: 50px;
   font-family: Open Sans,helvetica,arial;
@@ -27,7 +27,7 @@ h2 {
   color: #e5dea5;
   text-shadow: 5px 8px 0px rgba(22, 19, 19, 0.55); }
 
-/* line 63, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 73, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 h3 {
   font-size: 4.8vh;
   font-family: open sans,helvetica,arial;
@@ -39,7 +39,7 @@ h3 {
   margin-left: 5vw;
   margin-top: 10vh; }
 
-/* line 74, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 84, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 h4 {
   text-align: center;
   font-size: 2vw;
@@ -48,49 +48,59 @@ h4 {
   color: #e5dea5;
   text-shadow: 5px 5px 0px rgba(153, 0, 0, 0.25); }
 
-/* line 83, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 92, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+#continue {
+  font-size: 4.8vh;
+  font-family: open sans,helvetica,arial;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #e5dea5;
+  text-shadow: 5px 5px 0px rgba(153, 0, 0, 0.25); }
+
+/* line 102, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .bg-image {
   background: url("../img/background_home.jpg") no-repeat center center;
   background-size: cover;
   overflow: hidden; }
 
-/* line 88, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 107, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .bg-image-login {
   background: url("../img/gopodog_website.jpg") no-repeat center center;
   background-size: cover;
   overflow: hidden; }
 
-/* line 93, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 112, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .bg-image-pooping {
   background: url("../img/background_pooping.jpg") no-repeat center center;
   background-size: cover;
   overflow: hidden; }
 
-/* line 98, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 117, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .bg-image-running {
   background: url("../img/background_running.jpg") no-repeat center center;
   background-size: cover;
   overflow: hidden; }
 
-/* line 103, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 122, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .bg-image-swimming {
   background: url("../img/background_swimming.jpg") no-repeat center center;
   background-size: cover;
   overflow: hidden; }
 
-/* line 108, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 128, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .bg-image-achievements {
   background: url("../img/background_achievements.jpg") no-repeat center center;
   background-size: cover;
   overflow: hidden; }
 
-/* line 113, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 133, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .background-keuzemenu {
   background: url("../img/keuzemenu.jpg") no-repeat center center;
   background-size: cover;
   overflow: hidden; }
 
-/* line 120, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 140, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #map {
   height: 60vh;
   width: 90vw;
@@ -98,45 +108,71 @@ h4 {
   border: thin solid #333;
   max-width: 1200px; }
 
-/* line 127, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 147, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #achievements {
-  width: 1280px;
+  width: auto;
   height: 100vh;
   margin-top: 20px; }
 
-/* line 132, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 152, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #unlockimg {
   width: 10%;
   height: 10%;
   float: left; }
 
-/* line 137, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 157, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .login {
   margin-top: 50vh; }
 
-/* line 141, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 161, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .nextpage {
   margin-top: 60vh;
   text-align: center; }
 
-/* line 147, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 167, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .hidelogin {
   display: none; }
 
-/* line 151, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 171, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .hideInputField {
   display: none; }
 
-/* line 154, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 174, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #btnLogout {
   text-align: center;
   width: 100px;
   height: 64px;
   font-size: 20px;
-  background-color: rgba(204, 255, 0, 0.2);
+  background-color: rgba(229, 221, 164, 0.89);
   border: none; }
 
-/* line 164, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 183, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+#btnLogout_m {
+  text-align: center;
+  width: 100px;
+  height: 64px;
+  font-size: 20px;
+  background-color: rgba(229, 221, 164, 0.89);
+  border: none; }
+
+/* line 191, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+#btnLogin {
+  text-align: center;
+  width: 83vw;
+  height: 15vh;
+  max-height: 87px;
+  max-width: 400px;
+  background-color: #e5dea5;
+  color: #332f28;
+  border-radius: 10px;
+  font: 65px open sans,arial,helvetica;
+  text-transform: none;
+  box-shadow: 0px 10px 0px rgba(22, 19, 19, 0.55);
+  font-size: 4.5vh;
+  float: left;
+  width: 86vw; }
+
+/* line 197, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #btnLoginToPage {
   text-align: center;
   width: 83vw;
@@ -156,7 +192,7 @@ h4 {
   float: left;
   width: 80vw; }
 
-/* line 173, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 206, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #markers {
   text-align: center;
   width: 83vw;
@@ -174,7 +210,7 @@ h4 {
   margin-top: 10px;
   float: left; }
 
-/* line 180, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 213, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #topdog {
   text-align: center;
   width: 83vw;
@@ -187,10 +223,12 @@ h4 {
   font: 65px open sans,arial,helvetica;
   text-transform: none;
   box-shadow: 0px 10px 0px rgba(22, 19, 19, 0.55);
-  font-size: 40px;
+  font-size: 4.5vh;
+  margin-left: 10px;
+  margin-top: 10px;
   float: left; }
 
-/* line 185, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 220, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #btnSignup {
   text-align: center;
   width: 83vw;
@@ -208,7 +246,7 @@ h4 {
   margin-top: 10px;
   float: left; }
 
-/* line 192, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 227, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #btnSignupToPage {
   text-align: center;
   width: 83vw;
@@ -225,73 +263,105 @@ h4 {
   margin-top: 10px;
   width: 80vw; }
 
-/* line 199, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 234, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .loginButtons {
   margin: 0 auto; }
 
-/* line 202, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 237, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .loginFields {
   margin: 0 auto;
   margin-top: 60vh;
   width: 400px; }
 
-/* line 207, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
-input {
-  border: 3px solid #e5dea5 !important;
-  border-radius: 10px !important;
-  color: #332f28 !important;
-  font-family: open sans, arial, helvetica !important;
-  font-size: 35px !important; }
+/* line 242, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+#txtEmail {
+  border: 3px solid #e5dea5;
+  border-radius: 10px;
+  color: #332f28;
+  font-family: open sans,arial,helvetica;
+  font-size: 5vh;
+  width: 85vw;
+  max-width: 400px; }
 
-/* line 214, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 245, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+#txtPassword {
+  border: 3px solid #e5dea5;
+  border-radius: 10px;
+  color: #332f28;
+  font-family: open sans,arial,helvetica;
+  font-size: 5vh;
+  width: 85vw;
+  max-width: 400px; }
+
+/* line 248, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+#txtEmailRegister {
+  border: 3px solid #e5dea5;
+  border-radius: 10px;
+  color: #332f28;
+  font-family: open sans,arial,helvetica;
+  font-size: 5vh;
+  width: 85vw;
+  max-width: 400px; }
+
+/* line 251, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+#txtPasswordRegister {
+  border: 3px solid #e5dea5;
+  border-radius: 10px;
+  color: #332f28;
+  font-family: open sans,arial,helvetica;
+  font-size: 5vh;
+  width: 85vw;
+  max-width: 400px; }
+
+/* line 254, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 a {
   color: #332f28;
   text-decoration: none; }
 
-/* line 218, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 258, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 a:hover {
   text-decoration: underline; }
 
-/* line 221, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 261, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .keuzemenu {
   margin-left: 15vw;
   width: 70%;
   margin-top: 18vh; }
 
-/* line 227, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 267, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #running {
   width: 70vw;
   height: auto;
   margin-bottom: 10vh;
   margin: 0 auto; }
 
-/* line 234, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 274, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #pooping {
   width: 70vw;
   height: auto;
   margin-bottom: 10vh;
   margin: 0 auto; }
 
-/* line 241, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 281, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #keuzeIconWeb {
   width: 100%;
   height: 100%;
   margin: 0 auto; }
 
-/* line 247, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 287, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .keuzePoopingWeb {
   width: 500px; }
 
-/* line 251, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 291, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .keuzemenuWeb {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 75vh; }
 
-/* line 257, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 297, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #currentPage {
-  font-size: 5.8vh;
+  font-size: 4vh;
   font-family: Open Sans,helvetica,arial;
   font-weight: bold;
   text-transform: uppercase;
@@ -299,7 +369,7 @@ a:hover {
   color: #e5dea5;
   text-shadow: 5px 2px 0px rgba(22, 19, 19, 0.55); }
 
-/* line 266, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 306, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #keuzeIconWeb:hover {
   -ms-transform: rotate(7deg);
   /* IE 9 */
@@ -307,21 +377,28 @@ a:hover {
   /* Chrome, Safari, Opera */
   transform: rotate(7deg); }
 
-/* line 269, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 309, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+.icon {
+  height: 40px;
+  width: auto;
+  margin-right: 5px;
+  display: inline-block; }
+
+/* line 316, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #swimming {
   width: 70vw;
   height: auto;
   margin-bottom: 10vh;
   margin: 0 auto; }
 
-/* line 276, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 323, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #king {
   width: 70vw;
   height: auto;
   margin-bottom: 10vh;
   margin: 0 auto; }
 
-/* line 283, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 330, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .navlist {
   text-align: center;
   position: absolute;
@@ -330,7 +407,7 @@ a:hover {
   transform: translateX(-50%);
   padding-left: 10px; }
 
-/* line 292, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 339, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #btnRunning {
   width: 60px;
   height: 60px;
@@ -341,15 +418,15 @@ a:hover {
   margin-top: 20vh;
   float: left; }
 
-/* line 295, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 342, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .btnNotActive {
   background: rgba(153, 0, 0, 0.25); }
 
-/* line 298, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 345, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .btnActive {
   background: #e5dea5; }
 
-/* line 301, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 348, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #btnPooping {
   width: 60px;
   height: 60px;
@@ -360,7 +437,7 @@ a:hover {
   margin-top: 20vh;
   float: left; }
 
-/* line 304, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 351, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #btnSwimming {
   width: 60px;
   height: 60px;
@@ -371,7 +448,7 @@ a:hover {
   margin-top: 20vh;
   float: left; }
 
-/* line 307, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 354, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 #btnAchievements {
   width: 60px;
   height: 60px;
@@ -382,7 +459,7 @@ a:hover {
   margin-top: 20vh;
   float: left; }
 
-/* line 310, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
+/* line 357, C:/Users/user/Documents/GitHub/kevitres.github.io/css/main.scss */
 .centerBtns {
   width: 35vw;
   margin-left: 18vw;
