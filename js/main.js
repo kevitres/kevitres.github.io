@@ -86,7 +86,7 @@ document.location.href = "../achievements/index.html";
 };
 $(document).ready(function () {
 
-
+$(".button-collapse").sideNav(); 
 
 
          if ((screen.width>900)) {
@@ -122,6 +122,6 @@ if(screen.width<=900&&filename=='keuzemenu')
          $('html').css({background : 'url("../img/pooping_m.jpg") no-repeat center center'});
     };
     
-$(".button-collapse").sideNav(); 
+
 
 
