@@ -33,7 +33,7 @@ document.location.href = "../achievements/index.html";
         $("#btnSwimming").removeClass('btnActive');
         $("#btnAchievements").removeClass('btnActive');
          
-        $('html').css({background : 'url("../img/pooping_m.jpg") no-repeat center center'}); 
+       // $('html').css({background : 'url("../img/pooping_m.jpg") no-repeat center center'}); 
     });   
     
     $("#btnRunning").click(function(){
